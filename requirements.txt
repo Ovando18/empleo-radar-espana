@@ -1,0 +1,10 @@
+# Dependências leves, compatíveis com o Streamlit Community Cloud (Python 3.10–3.13).
+# Sem Selenium/Playwright: a coleta usa httpx + BeautifulSoup e, se bloqueada, links diretos.
+streamlit>=1.50,<2.0
+httpx>=0.27,<1.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.2,<7.0
+pandas>=2.2,<4.0
+plotly>=5.22,<7.0
+openpyxl>=3.1,<4.0
+fpdf2>=2.7.9,<3.0
